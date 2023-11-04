@@ -5,7 +5,7 @@ def test_returns_correct_value():
     value = 100
 
     # Act
-    from lib.percentage_calculator import percentage_calculator
+    from src.percentage_calculator.percentage_calculator import percentage_calculator
     newValue = percentage_calculator(value, increaseBy)
 
     # Assert

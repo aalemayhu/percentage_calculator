@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+src/percentage_calculator/
 lib64/
 parts/
 sdist/

@@ -1,10 +1,14 @@
 [tool.poetry]
 name = "percentage-calculator"
-version = "0.1.0"
+version = "0.1.1"
 description = "print percentage increase of a value"
 authors = ["Alexander Alemayhu <alexander@alemayhu.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [{ include = "percentage_calculator", from = "src" }]
+
+[tool.poetry.scripts]
+percentage_calculator = "percentage_calculator.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"

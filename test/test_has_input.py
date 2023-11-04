@@ -4,7 +4,7 @@ def test_has_input():
     increaseBy = None
 
     # Act
-    from lib.has_valid_input import has_valid_input
+    from src.percentage_calculator.has_valid_input import has_valid_input
     good_input = has_valid_input(value, increaseBy)
 
     # Assert
