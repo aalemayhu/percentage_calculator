@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "percentage-calculator"
+version = "0.1.0"
+description = "print percentage increase of a value"
+authors = ["Alexander Alemayhu <alexander@alemayhu.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
