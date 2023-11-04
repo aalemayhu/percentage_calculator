@@ -1,5 +1,4 @@
-def percentage_calculator(value, increaseBy):
-    return (value / increaseBy) + value
+from percentage_calculator import percentage_calculator
 
 def test_returns_correct_value():
     # Arrange
