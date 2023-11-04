@@ -1,4 +1,3 @@
-from percentage_calculator import percentage_calculator
 
 def test_returns_correct_value():
     # Arrange
@@ -6,6 +5,7 @@ def test_returns_correct_value():
     value = 100
 
     # Act
+    from lib.percentage_calculator import percentage_calculator
     newValue = percentage_calculator(value, increaseBy)
 
     # Assert

@@ -1,8 +1,8 @@
 import sys
 
-from format_number import format_number
-from has_valid_input import has_valid_input
-from percentage_calculator import percentage_calculator
+from lib.format_number import format_number
+from lib.has_valid_input import has_valid_input
+from lib.percentage_calculator import percentage_calculator
 
 
 def printHelp():
