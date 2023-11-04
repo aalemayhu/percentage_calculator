@@ -1,2 +1,2 @@
 def percentage_calculator(value, increaseBy):
-    return (value / increaseBy) + value
+    return (value * increaseBy)/100 + value
